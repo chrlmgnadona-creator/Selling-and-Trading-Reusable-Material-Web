@@ -15,21 +15,6 @@ const DEFAULT_LISTINGS = [
         date: "2026-03-24"
     },
     {
-        id: "tac-102",
-        name: "Clean PET Plastic Bottles (Bulk)",
-        category: "Plastics",
-        type: "Trade",
-        quantity: "200 pcs",
-        price: "Open for Trade (Eco-bricks)",
-        barangay: "Barangay San Jose",
-        description: "Collected clear 1.5L and 500ml bottles, washed and sanitized. Looking to trade for organic compost or gardening soil.",
-        image: "https://images.unsplash.com/photo-1595278069441-2cf29f80087f?auto=format&fit=crop&w=600&q=80",
-        sellerName: "Maria Clara",
-        sellerEmail: "maria@tacloban.gov.ph",
-        sellerContact: "0917-888-3344",
-        date: "2026-03-23"
-    },
-    {
         id: "tac-103",
         name: "Corrugated GI Roofing Sheets",
         category: "Construction",
@@ -43,21 +28,6 @@ const DEFAULT_LISTINGS = [
         sellerEmail: "carlos@tacloban.gov.ph",
         sellerContact: "0920-111-2233",
         date: "2026-03-22"
-    },
-    {
-        id: "tac-104",
-        name: "Scrap Aluminum Window Frames",
-        category: "Metals",
-        type: "Sell",
-        quantity: "8 frames",
-        price: "₱800 all",
-        barangay: "Abucay",
-        description: "Aluminum frames from a recent home renovation. Excellent for metal recycling or fabrication projects.",
-        image: "https://images.unsplash.com/photo-1558441719-752a22513f1c?auto=format&fit=crop&w=600&q=80",
-        sellerName: "Roberto Gomez",
-        sellerEmail: "roberto@tacloban.gov.ph",
-        sellerContact: "0919-444-5566",
-        date: "2026-03-20"
     },
     {
         id: "tac-105",
