@@ -1,0 +1,56 @@
+/* STREAMING_CHUNK:Defining theme variables and layout styling... */
+body.theme-eco {
+--primary-bg: #166534;
+--primary-hover: #14532d;
+--accent-color: #22c55e;
+--banner-bg: #dcfce7;
+--banner-text: #166534;
+}
+body.theme-dark {
+--primary-bg: #0f172a;
+--primary-hover: #020617;
+--accent-color: #38bdf8;
+--banner-bg: #1e293b;
+--banner-text: #f8fafc;
+}
+body.theme-ocean {
+--primary-bg: #0369a1;
+--primary-hover: #075985;
+--accent-color: #0284c7;
+--banner-bg: #e0f2fe;
+--banner-text: #0369a1;
+}
+body.theme-sunset {
+--primary-bg: #c2410c;
+--primary-hover: #9a3412;
+--accent-color: #ea580c;
+--banner-bg: #ffedd5;
+--banner-text: #9a3412;
+}
+body.theme-slate {
+--primary-bg: #334155;
+--primary-hover: #1e293b;
+--accent-color: #64748b;
+--banner-bg: #f1f5f9;
+--banner-text: #334155;
+}
+
+/* Custom transitions and scrollbar enhancements */
+
+{
+transition-property: background-color, border-color, color, fill, stroke;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+transition-duration: 150ms;
+}
+
+::-webkit-scrollbar {
+width: 8px;
+height: 8px;
+}
+::-webkit-scrollbar-track {
+background: rgba(0,0,0,0.05);
+}
+::-webkit-scrollbar-thumb {
+background: rgba(0,0,0,0.2);
+border-radius: 4px;
+}
